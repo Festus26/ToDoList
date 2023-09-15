@@ -1,0 +1,163 @@
+main, ul {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ecba44;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 50%;
+}
+
+main{
+    margin: auto;
+    margin-top: -3px;
+    width: 50%;
+    border: 3px solid rgb(16,72,96);
+}
+
+h1 {
+    font-size: 48px;
+    color: rgb(16, 72, 96);
+    text-align: center;
+}
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+.task-input {
+    width: 100%;
+    padding: 2px;
+    color: rgb(16,72,96);
+    border: 2px solid rgb(16,72,96);
+    border-radius: 4px;
+}
+.add-button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: rgb(16,72,96);
+    border:2px solid rgb(16, 72, 96);
+    background-color: rgb(227, 227, 227);
+    border-radius: 10px;
+}
+.add-task {
+    text-align: left;
+}
+.add-button:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+
+.todo-list li {
+    background-color: #f0f0f0;
+    color: rgb(16,72,96);
+    margin: 5px 0;
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 43px; /* Adjust the value to vertically center the text */
+    height: 43px; /* Set the same height as line-height */
+    text-overflow: ellipsis; /* Add an ellipsis (...) for hidden text */
+
+}
+
+/* Hover effect for list items */
+.todo-list li:hover {
+    background-color: #e0e0e0;
+    border-radius: 15px;
+}
+
+.center {
+    margin: auto;
+    width: 75%;
+    border: 3px solid rgb(16,72,96);
+}
+.todo-container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.Remove-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    padding: 70px 0;
+    margin: 10px auto;
+    background-color: #f66565; /* Red background color */
+    color: rgb(16,72,96);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+.Remove-button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+    border-radius: 2.5px;
+}
+.order-div {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.down-button {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(16,72,96);
+    margin: 2px; /* Add spacing between buttons (optional) */
+    padding: 7.5px; /* Adjust padding as needed */
+    background-color: #ffffff; /* Button background color */
+    border: 1px solid rgb(16,72,96);
+    border-radius: 5px;
+    cursor: pointer;
+    height: 7.5px;
+    float: left;
+}
+
+.up-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(16,72,96);
+    margin: 2px; /* Add spacing between buttons (optional) */
+    padding: 7.5px; /* Adjust padding as needed */
+    background-color: #ffffff; /* Button background color */
+    border: 1px solid rgb(16,72,96);
+    border-radius: 5px;
+    cursor: pointer;
+    height: 7.5px;
+    float: left;
+}
+.down-button:hover {
+    background-color: darkgrey;
+}
+.up-button:hover {
+    background-color: darkgrey;
+}
+.button-content {
+    color: black;
+}
+.task-text {
+    margin: 10px;
+}
+footer {
+    text-align: center;
+    color: rgb(16,72,96);
+}
+.image {
+    size: 64px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
